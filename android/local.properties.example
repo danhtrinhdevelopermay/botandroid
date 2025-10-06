@@ -1,0 +1,4 @@
+## This file must be in your .gitignore (it is by default)
+## Create android/local.properties and add your Flutter SDK path
+
+flutter.sdk=/path/to/flutter

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Assistant</string>
+    <string name="shortcut_ai">Trợ lý AI</string>
+    <string name="shortcut_ai_long">Mở Trợ lý AI</string>
+    <string name="shortcut_disabled">Trợ lý AI không khả dụng</string>
+</resources>
