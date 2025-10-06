@@ -195,7 +195,9 @@ class _ChatScreenState extends State<ChatScreen> {
                 _messages.clear();
               });
               await _saveMessages();
-              Navigator.pop(context);
+              if (context.mounted) {
+                Navigator.pop(context);
+              }
             },
             child: const Text('Xóa'),
           ),
